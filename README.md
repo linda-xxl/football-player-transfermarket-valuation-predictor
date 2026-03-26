@@ -121,7 +121,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 Feel free to explore the dashboard!
 
-<img width="1002" height="560" alt="image" src="https://github.com/user-attachments/assets/bf31b3ee-37e8-40a8-8207-fd105d93d6b8" />
+<img width="2514" height="1208" alt="image" src="https://github.com/user-attachments/assets/9313b022-efcc-4c2a-bcf3-eac6568a66df" />
 
 
 > Data and models are stored on your machine (not inside the container) via volume mounts, so they persist across runs.
