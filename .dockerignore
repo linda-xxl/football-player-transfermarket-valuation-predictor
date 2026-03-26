@@ -1,0 +1,17 @@
+.git/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Data and model artifacts — mounted as volumes at runtime
+data/
+processed/
+models/
+
+# Notebooks not needed in the image
+notebooks/
+
+# Shell scripts not needed in the image
+*.sh

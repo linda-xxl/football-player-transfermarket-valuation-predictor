@@ -1,0 +1,21 @@
+services:
+
+  # Run once to download data, process features, and train models
+  pipeline:
+    build: .
+    command: python src/pipeline.py
+    volumes:
+      - ./data:/app/data
+      - ./processed:/app/processed
+      - ./models:/app/models
+      - ~/.kaggle:/root/.kaggle:ro
+
+  # Streamlit app — run after pipeline has completed
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./processed:/app/processed
+      - ./models:/app/models
