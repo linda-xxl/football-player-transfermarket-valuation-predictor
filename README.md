@@ -4,6 +4,8 @@ What will a football player be worth next season? Clubs, agents, and fans all wa
 
 This project uses machine learning to **predict a player's next-period Transfermarkt market value** and **flag breakout talents and declining veterans** before the market catches up. An interactive Streamlit dashboard lets you explore any player's momentum, valuation history, and model predictions based on latest data available.
 
+<img width="1002" height="560" alt="image" src="https://github.com/user-attachments/assets/aea28851-997e-4ff4-ac6f-73390e36dccf" />
+
 **Data source:** [Transfermarkt dataset on Kaggle](https://www.kaggle.com/datasets/davidcariboo/player-scores/data) (`davidcariboo/player-scores`)
 
 ---
