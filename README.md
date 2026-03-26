@@ -119,6 +119,11 @@ docker compose up app
 
 Open [http://localhost:8501](http://localhost:8501) in your browser.
 
+Feel free to explore the dashboard!
+
+<img width="1002" height="560" alt="image" src="https://github.com/user-attachments/assets/bf31b3ee-37e8-40a8-8207-fd105d93d6b8" />
+
+
 > Data and models are stored on your machine (not inside the container) via volume mounts, so they persist across runs.
 
 ---
